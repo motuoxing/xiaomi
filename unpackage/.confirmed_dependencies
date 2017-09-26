@@ -1,0 +1,106 @@
+{
+  "order.html": {
+    "href": "order.html",
+    "resources": [
+      "css/mui.min.css",
+      "css/iconfont.css",
+      "css/order.css",
+      "js/mui.min.js",
+      "js/xiaomi.js",
+      "images/find/find10.jpg",
+      "images/find/find11.jpg",
+      "images/g2-1.webp",
+      "images/g2-2.webp",
+      "images/g2-3.webp",
+      "images/g2-4.webp"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "find.html": {
+    "href": "find.html",
+    "resources": [
+      "css/mui.min.css",
+      "css/iconfont.css",
+      "css/find.css",
+      "js/mui.min.js",
+      "js/xiaomi.js",
+      "images/find/adv.jpg",
+      "images/find/find1.jpg",
+      "images/find/find2.jpg",
+      "images/find/find3.jpg",
+      "images/find/location.png"
+    ],
+    "refer": [
+      "index.html",
+      "categroy.html",
+      "find.html",
+      "order.html"
+    ],
+    "priority": 0
+  },
+  "categroy.html": {
+    "href": "categroy.html",
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.css",
+      "css/iconfont.css",
+      "css/category.css",
+      "js/xiaomi.js",
+      "images/fl-1.webp",
+      "images/fl-2.webp",
+      "images/fl-3.webp",
+      "images/slider/fl-4.webp",
+      "images/fl-5.webp",
+      "images/find/find1.jpg",
+      "images/find/find2.jpg",
+      "images/find/find3.jpg",
+      "images/find/find4.jpg",
+      "images/find/find5.jpg",
+      "images/find/find6.jpg",
+      "images/find/find7.jpg"
+    ],
+    "refer": [
+      "index.html",
+      "categroy.html",
+      "find.html",
+      "order.html"
+    ],
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.css",
+      "css/iconfont.css",
+      "css/index.css",
+      "js/xiaomi.js",
+      "images/fl-1.webp",
+      "images/fl-2.webp",
+      "images/slider/slider-5.webp",
+      "images/slider/slider-1.webp",
+      "images/slider/slider-2.webp",
+      "images/slider/slider-3.webp",
+      "images/slider/slider-4.webp",
+      "images/index-s-1.webp",
+      "images/index-s-2.webp",
+      "images/index-s-3.webp",
+      "images/g2-1.webp",
+      "images/g2-2.webp",
+      "images/g2-3.webp",
+      "images/g2-4.webp",
+      "images/g2-5.webp",
+      "images/g2-6.webp",
+      "images/g2-7.webp",
+      "images/g2-8.webp"
+    ],
+    "refer": [
+      "index.html",
+      "categroy.html",
+      "find.html",
+      "order.html"
+    ],
+    "priority": 0
+  }
+}

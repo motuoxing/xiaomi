@@ -1,0 +1,123 @@
+@import "xiaomi.less";
+//主页中的样式
+header{
+    .flex_b();
+    div{flex:1 1 auto; .pl(20);.pr(20);}
+    input[type=text]{
+        line-height: 1;
+        margin:0;
+        padding:0;
+        border:none;
+        .h(66);
+        
+    }
+    &.mui-bar {
+        background-color:rgba(229,131,53,0);
+    }
+}
+
+.mui-slider{
+    .mui-slider-indicator{
+        text-align: right;
+    }
+    
+}
+.usernav{
+    .flex_a();
+    a{
+        .cg1();
+    }
+    
+    .h(160);
+    .mui-icon{
+        display: block;
+        .w(64);.h(64);.lh(64);
+        .tc();
+        color:#fff;
+        border-radius:50%;
+     
+        .bc();
+        .mb(10);
+    }
+}
+
+.morning{
+    .pl(30);
+    .pr(30);
+    .h(82);
+    display: flex;
+    align-items: center;
+    
+    .title{
+        font-family: "微软雅黑";
+        color:#F16136;
+        font-weight: bolder;
+        .fs(40);
+        .h(45);
+        .pr(20);
+        border-right: 1px solid red;
+    }
+    .content{
+        position: relative;
+         .pl(20);
+         a { color:#000 ;}
+        flex: 1 1 auto;
+        .lh(40);
+        .fs(28);
+        
+        .item{
+            .vc();
+            background-color: red;
+            transition: all .5s;
+            
+        }
+    }
+}
+
+.goodlist1{
+    .mui-row{
+        img{ width:100%;}
+    
+    }
+    .mui-col-sm-6:first-child{
+        padding-right:2px;
+    }
+    .pb2{
+        display: block;
+        margin-bottom: 2px;
+    }
+}
+
+.section{
+    background-color: #fff;
+    img{width: 100%;}
+    
+    .mui-col-sm-6:nth-of-type(2n+1){
+        padding-right:1px;
+    }
+    .mui-col-sm-6:nth-of-type(2n+2){
+        padding-left:1px;
+    }
+    
+    .good-info{
+        .pl(30);
+        .h(160);
+        overflow: hidden;
+        line-height: 1.5;
+        .good-name{ .fs(28); .cg2();}
+        .good-intr{ .fs(24); .cg3();}
+        .price{ .fs(30); .cprice(); 
+            &:before{
+                content: "¥";
+                .fs(12);
+                position: relative;
+                .top(-6);                
+            }
+        }
+        .oldprice{ .fs(24); .cg3();}
+        
+    }
+}
+.mui-bar-tab{
+    .icon-faxian{top:-3px;}
+}

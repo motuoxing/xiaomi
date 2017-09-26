@@ -1,0 +1,105 @@
+@import "xiaomi.less";
+//分类页
+header{
+    .flex_b();
+    align-items: center;
+    input[type=text]{
+        .h(66);
+        .w(630);
+    }
+}
+.mui-content{
+    position: absolute;
+    background-color: #fff;
+    left:0;
+    right:0;
+    top:44px;
+    bottom:50px;
+    padding:0 !important;
+    
+    display: flex;
+    .leftnav{
+        flex: 0 0 auto;
+        .w(157);
+        border-right:1px solid #ddd;
+    }
+    .main{
+        flex:1 1 auto;
+        .p(34);
+        padding-top:0;
+        img{width: 100%;}
+        
+        transition :all .5s;
+        overflow-y:auto;
+        
+        
+        
+    }
+    
+    .leftnav{
+        .wrap{
+            
+            a{
+                .tc();
+                display: block;
+                .h(80);.lh(80);
+                color:#000;
+                transition: transform .5s;
+            }
+            a.active{ 
+                transform: scale3d(1.2,1.2,1);
+                color: #fb7d34;
+            }
+            
+        }
+    }
+    
+    .itemcontainer{
+        
+        .title{
+            .mt(30);
+            .mb(30);
+            .tc();
+            span{
+                position: relative;
+                .fs(28);color:#222;
+                .pl(30);
+                .pr(30);
+                &:after,&:before{
+                    content:"";
+                    position: absolute;
+                    height: 1px;
+                    .w(50);
+                    background-color: #000;
+                    .vc();
+                    
+                }
+                &:before{
+                   .left(-60);
+                }
+                &:after{
+                   .right(-60);
+                }
+            }
+        }
+        
+        .good{
+            .mt(20);
+            .p(3);
+            img{
+                .h(130);
+                .w(150);
+                .bc();
+            }
+            .good-name{
+                .tc();
+                .mt(20);
+                .fs(28);
+                color:#666;
+            }
+        }
+        
+    }
+    
+    
+}

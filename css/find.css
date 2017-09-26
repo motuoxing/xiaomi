@@ -1,0 +1,276 @@
+.fr {
+  float: right;
+}
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+div,
+section,
+footer,
+header {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "SimSun", "宋体";
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea {
+  background: none;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  color: #333;
+  font: 12px/1.2 "微软雅黑", "SimSun", "Arial Narrow", HELVETICA;
+  background: #fff;
+}
+a {
+  text-decoration: none;
+}
+em,
+i {
+  font-style: normal;
+}
+header input[type=text] {
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 0.88rem;
+}
+.mui-content {
+  padding-bottom: 50px;
+}
+.c000 {
+  color: #000;
+}
+.c888 {
+  color: #888;
+}
+.cf50 {
+  color: #f50;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header input[type=text] {
+  height: 0.88rem;
+  width: 8.4rem;
+}
+.usernav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 2.13333333rem;
+}
+.usernav a {
+  color: #747474;
+}
+.usernav .mui-icon {
+  display: block;
+  width: 0.85333333rem;
+  height: 0.85333333rem;
+  line-height: 0.85333333rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #E02038;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.13333333rem;
+}
+.morning {
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  height: 1.09333333rem;
+  display: flex;
+  align-items: center;
+}
+.morning .title {
+  font-family: "微软雅黑";
+  color: #F16136;
+  font-weight: bolder;
+  font-size: 0.53333333rem;
+  height: 0.6rem;
+  padding-right: 0.26666667rem;
+  border-right: 1px solid red;
+}
+.morning .content {
+  position: relative;
+  padding-left: 0.26666667rem;
+  flex: 1 1 auto;
+  line-height: 0.53333333rem;
+  font-size: 0.37333333rem;
+}
+.morning .content a {
+  color: #000 ;
+}
+.morning .content .item {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: red;
+  transition: all .5s;
+}
+.location {
+  font-size: 0.32rem;
+}
+.location .mui-table-view {
+  background-color: #fff;
+  height: 2.21333333rem;
+  padding-top: 0.33333333rem;
+  padding-left: 0.44rem;
+  line-height: 0.8rem;
+}
+.location img {
+  width: 2.06666667rem;
+  height: 1.33333333rem;
+  margin-right: 0.44rem;
+}
+.location .mui-table-view-cell {
+  padding: 0;
+}
+.location .mui-table-view-cell .mui-navigate-right {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+.location span {
+  margin-left: auto;
+  margin-right: 0.8rem;
+}
+.news {
+  background-color: #f5f5f5;
+  height: 3.69333333rem;
+}
+.news .mui-scroll-wrapper {
+  height: 3.69333333rem;
+}
+.news .mui-scroll {
+  height: 3.69333333rem;
+}
+.news .mui-scroll .mui-control-item {
+  background-color: #fff;
+  width: 2.77333333rem;
+  height: 3.69333333rem;
+}
+.ad .mui-card {
+  margin: 0;
+}
+.ad .mui-card img {
+  width: 100%;
+}
+.ad .info {
+  padding-top: 0.41333333rem;
+  padding-right: 0.46666667rem;
+  padding-left: 0.46666667rem;
+  font-size: 0.37333333rem;
+  line-height: 1.2;
+}
+.ad .mui-card-footer:before {
+  display: none;
+}
+.productList .mui-table-view-cell {
+  padding-left: 0.13333333rem;
+  padding-right: 0.13333333rem;
+  padding-bottom: 0.13333333rem;
+  padding-top: 0.13333333rem;
+  height: 2.77333333rem;
+  display: flex;
+}
+.productList .mui-table-view-cell img {
+  height: 2.53333333rem;
+  margin-right: 0.44rem;
+}
+.productList .mui-table-view-cell div {
+  padding-top: 0.26666667rem;
+  padding-bottom: 0.26666667rem;
+  flex: 1 1 auto;
+  font-size: 0.37333333rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.productList .mui-table-view-cell .good-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0.4rem;
+}

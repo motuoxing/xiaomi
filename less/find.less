@@ -1,0 +1,160 @@
+@import "xiaomi.less";
+
+
+//分现页
+header{
+    .flex_b();
+    align-items: center;
+    input[type=text]{
+        .h(66);
+        .w(630);
+    }
+}
+
+.usernav{
+    .flex_a();
+    a{
+        .cg1();
+    }
+    
+    .h(160);
+    .mui-icon{
+        display: block;
+        .w(64);.h(64);.lh(64);
+        .tc();
+        color:#fff;
+        border-radius:50%;
+        background-color: #E02038;
+        .bc();
+        .mb(10);
+    }
+}
+
+.morning{
+    .pl(30);
+    .pr(30);
+    .h(82);
+    display: flex;
+    align-items: center;
+    
+    .title{
+        font-family: "微软雅黑";
+        color:#F16136;
+        font-weight: bolder;
+        .fs(40);
+        .h(45);
+        .pr(20);
+        border-right: 1px solid red;
+    }
+    .content{
+        position: relative;
+         .pl(20);
+         a { color:#000 ;}
+        flex: 1 1 auto;
+        .lh(40);
+        .fs(28);
+        
+        .item{
+            .vc();
+            background-color: red;
+            transition: all .5s;
+            
+        }
+    }
+}
+.location{
+   
+    .mui-table-view{
+         background-color: #fff;
+    .h(166);
+    .pt(25);
+    .pl(33);
+    .lh(60);
+   
+    }
+    .fs(24);
+    img{
+        .w(155);
+        .h(100);
+        .mr(33);
+    }
+    .mui-table-view-cell{
+        padding:0;
+    }
+    .mui-table-view-cell .mui-navigate-right{
+        display: flex;
+        align-items: center;
+        
+        margin: 0px;
+        padding: 0px;
+     
+    }
+    span{
+        margin-left:auto;
+        .mr(60);
+    }
+}
+
+.news{
+    background-color: #f5f5f5;
+    @h:277;
+  .h(@h);
+  .mui-scroll-wrapper{.h(@h);}
+  .mui-scroll{.h(@h);}
+  .mui-scroll .mui-control-item  {
+      
+      background-color: #fff;
+      .w(208);
+      .h(@h);
+  }
+    
+}
+
+.ad{
+   .mui-card{
+       margin:0;
+       img{width: 100%;}
+   }
+   .info{
+    .pt(31);
+    .pr(35);
+    .pl(35);
+    .fs(28);
+    line-height: 1.2;   
+   }
+   .mui-card-footer{
+       &:before{
+           display: none;
+       }
+   }
+}
+
+.productList{
+    .mui-table-view-cell{
+        .pl(10);.pr(10);.pb(10);.pt(10);
+        .h(208);
+        display: flex;
+
+        img{
+            .h(190);
+            .mr(33);
+        }
+        div{
+            .pt(20);
+            .pb(20);
+            flex: 1 1 auto;
+            .fs(28);
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+        }
+        .good-footer{
+            .flex_b();
+            .pr(30);
+        }
+        
+    }
+    
+}
